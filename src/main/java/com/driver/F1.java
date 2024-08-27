@@ -40,7 +40,7 @@ public class F1 extends Car {
          * speed more than 250: gear 6
          */
         newSpeed = super.getCurrentSpeed() + rate;
-        if(newSpeed < 0) newSpeed = 0;
+
         if(newSpeed == 0) {
             //Stop the car, set gear as 1
             super.stop();
