@@ -28,6 +28,16 @@ public class F1 extends Car {
     public int getSeats() {
         return super.getSeats();
     }
+    public String getName() {
+        return super.getName();
+    }
+    public int getCurrentSpeed() {
+        return super.getCurrentSpeed();
+    }
+    public int getCurrentDirection() {
+        return super.getCurrentDirection();
+    }
+
     public void accelerate(int rate){
         int newSpeed = 0; //set the value of new speed by using currentSpeed and rate
         /**

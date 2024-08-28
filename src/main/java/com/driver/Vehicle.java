@@ -31,7 +31,7 @@ public class Vehicle {
     }
 
     public Vehicle(String name) {
-        this.name = name;
+        this.setName(name);
     }
 
     public void steer(int direction){
